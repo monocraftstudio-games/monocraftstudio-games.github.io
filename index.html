@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mono Craft Studio - Independent mobile game developer and creator of NESTPOLY.">
+  <title>Mono Craft Studio | Official Website</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(ellipse at top, #182b4a 0%, #0b1220 55%, #070b13 100%);
+      color: #f1f5f9;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 24px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    nav a, footer a {
+      color: #b4c7df;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    a:hover { color: #ffffff; }
+
+    .hero {
+      padding: 110px 0 75px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      color: #68b8ff;
+      letter-spacing: 3px;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(36px, 8vw, 62px);
+      line-height: 1.15;
+      letter-spacing: -2px;
+      margin: 18px 0;
+    }
+
+    .subtitle {
+      color: #a7b8ca;
+      font-size: 17px;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .game {
+      background: rgba(255,255,255,0.045);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 36px;
+      margin-bottom: 70px;
+    }
+
+    .game-label {
+      color: #68b8ff;
+      font-size: 12px;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+
+    .game p, .contact p {
+      color: #a7b8ca;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 7px 14px;
+      border-radius: 20px;
+      background: rgba(104,184,255,0.1);
+      color: #8accff;
+      font-size: 13px;
+    }
+
+    .contact {
+      text-align: center;
+      padding-bottom: 75px;
+    }
+
+    .contact a {
+      color: #8accff;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding: 25px 0;
+      color: #8090a5;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 75px 0 55px; }
+      .game { padding: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">MONO CRAFT STUDIO</div>
+      <nav>
+        <a href="#games">Games</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Independent Game Studio</div>
+        <h1>Small Studio.<br>Big Ideas.</h1>
+        <p class="subtitle">
+          We create engaging mobile games built around
+          simple ideas, thoughtful design, and enjoyable gameplay.
+        </p>
+      </section>
+
+      <section id="games" class="game">
+        <div class="game-label">OUR FIRST GAME</div>
+        <h2>NESTPOLY</h2>
+        <p>
+          A mobile puzzle game featuring strategic block placement,
+          challenging stages, and endless survival gameplay.
+        </p>
+        <span class="status">Coming to Android</span>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Questions, feedback, or support inquiries?</p>
+        <a href="mailto:monocraftstudio.games@gmail.com">
+          monocraftstudio.games@gmail.com
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 Mono Craft Studio. All rights reserved.</span>
+      <div>
+        <a href="privacy.html">NESTPOLY Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
